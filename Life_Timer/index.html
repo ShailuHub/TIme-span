@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ae717d3a84.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Time machine</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div id="initial">
+        <div class="container">
+          <h1>Please enter your date of birth</h1>
+        </div>
+        <div class="setting">
+          <div class="content">
+            <input type="date" class="input-date" id="date" />
+            <button id="btn-calculate">Calculate</button>
+            <button id="btn-reset">Reset</button>
+          </div>
+        </div>
+      </div>
+      <div id="after" class="hide">
+        <div class="container">
+          <h1>Your Life Time Span</h1>
+        </div>
+        <div class="time-container">
+          <h2>
+            <div id="year">00</div>
+            <span>Years</span>
+          </h2>
+          <h2>
+            <div id="month">00</div>
+            <span>Months</span>
+          </h2>
+          <h2>
+            <div id="day">00</div>
+            <span>Days</span>
+          </h2>
+          <h2>
+            <div id="hr">00</div>
+            <span>Hours</span>
+          </h2>
+          <h2>
+            <div id="min">00</div>
+            <span>Minutes</span>
+          </h2>
+          <h2>
+            <div id="sec">00</div>
+            <span>Second</span>
+          </h2>
+        </div>
+        <button id="go_back">Go Back</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
